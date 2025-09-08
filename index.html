@@ -1,132 +1,126 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <title>Éclat Femme - Loja de Moda Feminina</title>
-    <link rel="stylesheet" href="main.css" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
 </head>
 <body>
-
-</body>
-        <img src="C:\Users\Senai\Downloads\Banner para Site Black Friday Loja de Roupas Minimalista Bege e Marrom.png" alt="">
+ <header>
+        <div class="container">
+            <h1>Meu Portfólio Inicial</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#certificados">Certificados</a></li>
+                    <li><a href="#midia">Mídia</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div class="slide-container">
-        <span id="slider-image1"></span>
-        <span id="slider-image2"></span>
-        <span id="slider-image3"></span>
-        <span id="reset-target"></span>
-        <div class="image-container">
-            <img src="C:\Users\Senai\Downloads\Beige Minimalist Mother's Day Sale Promotional Banner (1).png" class="slider-image">
-            <img src="C:\Users\Senai\Downloads\Banner para E-commerce Coleção Inverno Minimalista.png" class="slider-image">
-            <img src="C:\Users\Senai\Downloads\Banner para Site Black Friday Loja de Roupas Minimalista Bege e Marrom.png" class="slider-image">
-        </div>
-        <div class="button-container">
-            <a href="#slider-image1" class="slider-button"></a>
-            <a href="#slider-image2" class="slider-button"></a>
-            <a href="#slider-image3" class="slider-button"></a>
-            <a href="#reset-target" class="slider-button"></a>
-        </div>
+
+    <div class="container">
+        <main>
+            <section id="sobre" class="secao">
+                <h2>Sobre Mim</h2>
+                <p>
+                      Olá meu nome é Isabela Leandro de Santana, tenho 17 anos e sou aluna de tecnologia, 
+                    <br>  Atualmente sou estudante no <strong>SESI 023</strong> e também no <strong>SENAI Sorocaba</strong>,
+                    <br> onde faço curso de <strong>Desenvolvimento de Sistemas</strong>,
+                    <br> aprendendo com  os professores Jurandir Campos e Thiago Gregorio.
+                    <br> Estou fazendo o curso  há oito meses, e vou seguir na área de Tecnologia, acho um ramo interessante e uma ótima oportunidade para a vida profissional 
+                    <br> Mesmo com essa formação tecnológica, pretendo ingressar na faculdade de moda ou publicidade e propaganda nos próximos anos.
+                    
+
+                    <img src="Sobre-mim">
+                    <img src="C:\Users\Aluno\Downloads\WhatsApp Image 2025-09-08 at 15.18.55.jpeg" alt="Imagem sobre mim" class= "image-sobre">
+                  
+                    
+                   
+
+                </p>
+            </section>
+
+          <section id="hobbies" class="secao">
+  <h2>Hobbies</h2>
+  <ul>
+    <li>Fazer brownies</li>
+    <li>Ouvir música</li>
+    <li>Sair com os meus amigos</li>
+  </ul>
+
+  <p>Fazer brownies é um momento terapêutico para mim...</p>
+  <p>Ouvir música é uma forma simples de me desconectar...</p>
+  <p>Sair com os amigos é uma forma leve de desconectar...</p>
+
+  <div class="hobbies-imagens">
+    <img src="c62d0918-cb93-4d6f-a2c1-6e8c840b1ad3.jpg" alt="Imagem amigos" class="image-hobbie">
+    <img src="Brownies.jpg" alt="Imagem Hobby Brownies" class="image-hobbie">
+  </div>
+</section>
+
+            <section id="habilidades" class="secao">
+                <h2>Tabela de Habilidades</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnologia</th>
+                            <th>Nível de Conhecimento</th>
+                            <th>Ano de Programação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>HTML v5</td><td>Em desenvolvimento</td><td>2025</td></tr>
+                        <tr><td>Java</td><td>Intermediário</td><td>2025</td></tr>
+                        <tr><td>CSS v4</td><td>Iniciante</td><td>2025</td></tr>
+                        <tr><td>JavaScript</td><td>Iniciante</td><td>2025</td></tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="Link do Git Hub" class="secao">
+                <h2>Link do Git Hub </h2>
+                <p> Aqui está o link do git hub, onde são postadas todas as atividades feitas durante o curso! :</p>
+                <div class="certificados-link">
+                    <p>Veja algumas de minhas programações em java:</p>
+                    <a href="https://github.com/isasantanart/java" target="_blank">🔗 Acesse aqui</a>
+                </div>
+            </section>
+
+            <section id="midia" class="secao">
+                <h3>Meu vídeo: MELHOR DIA DA MINHA VIDA</h3>
+                
+                <video width="70%" controls>
+                    <source src="WhatsApp Video 2025-09-08 at 15.30.25 (1).mp4" type="video/mp4">
+                </video>
+            </section>
+
+            <section id="contato" class="secao">
+                <h2>Contato</h2>
+                <p>Envie-me uma mensagem!</p>
+                <div class="formulario">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome_usuario" required>
+                </div>
+                <div class="formulario">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email_usuario" required>
+                </div>
+                <div class="formulario">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem_usuario" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </section>
+        </main>
     </div>
-   
-    <section class="introducao">
-        <p>
-          Bem-vinda à <strong>Éclat Femme</strong>, onde a elegância encontra a autenticidade. 
-          Nossa coleção exclusiva de moda feminina traz peças cuidadosamente selecionadas para mulheres que valorizam estilo, conforto e sofisticação. 
-          Descubra roupas que realçam sua beleza e acompanham você em todos os momentos.
-        </p>
-      </section>
-
-      <section class="imagem-destaque">
-        <img src=C:\Users\Senai\Downloads\Banner para Site Black Friday Loja de Roupas Minimalista Bege e Marrom.png
-
-        <section class="imagem-destaque">
-        <img src="https://i.pinimg.com/736x/cc/12/3e/cc123e50f8c80fb5c733ef40165b5c94.jpg" alt="Moda feminina elegante" />
-    </section>
-
-    <section class="descricao-produto">
-        <h3>Sobre a peça VENEZA</h3>
-        <p>
-          A VENEZA é um vestido elegante que combina charme clássico com um toque moderno. 
-          Seu corte impecável valoriza as formas femininas, enquanto o tecido leve garante conforto durante todo o dia. 
-          Perfeito para eventos especiais ou para quem quer se destacar com sofisticação no dia a dia.
-        </p>
-      </section>
-
-    <section class="produto-destaque">
-        <h2>FINESSE</h2>
-        <img src="https://i.pinimg.com/736x/46/f8/d7/46f8d723a2aa0387811aa1fafeb45b85.jpg" alt="Produto FINESSE" width="300" />
-    </section>
-    
-    <section class="descricao-produto">
-        <h3>Sobre a peça FINESSE</h3>
-        <p>
-          A FINESSE é uma peça que une sofisticação e conforto, perfeita para quem busca elegância em cada detalhe. 
-          Confeccionada com tecidos de alta qualidade, seu design moderno valoriza a silhueta feminina com delicadeza e estilo. 
-          Ideal para ocasiões especiais ou para dar um toque refinado ao seu dia a dia.
-        </p>
-      </section>
-
-      <section class="produto-destaque">
-        <h2>SOUL</h2>
-        <img src="https://i.pinimg.com/736x/9a/a4/0e/9aa40ede57b1bd052f9077df5ffac1e3.jpg" alt="Jaqueta SOUL" width="300" />
-        <div class="descricao-produto">
-          <p>
-            A jaqueta SOUL é perfeita para quem busca estilo e versatilidade. Com design moderno e acabamento impecável, ela garante conforto e sofisticação para diversas ocasiões. Ideal para complementar seu guarda-roupa com uma peça marcante.
-          </p>
-        </div>
-    </section>
-
-    <section class="produto-destaque">
-        <h2>ESSENCIAL</h2>
-        <img src="https://i.pinimg.com/736x/2a/6d/a1/2a6da168f44cfb2c78da382ccfd2a1c5.jpg" alt="Blusa ESSENCIAL" width="300" />
-        <div class="descricao-produto">
-            <p>
-                A blusa ESSENCIAL é a combinação perfeita de simplicidade e elegância. Ideal para quem procura uma peça versátil e atemporal, ela é perfeita para compor looks casuais ou mais sofisticados. Conforto e estilo que não podem faltar no seu guarda-roupa.
-            </p>
-        </div>
-    </section>
-
-    <section class="tabela-produtos">
-        <h2>Nossos Produtos</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Produto</th>
-                    <th>Tamanho</th>
-                    <th>Preço</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Vestido VENEZA</td>
-                    <td>PP - GG</td>
-                    <td>R$ 250,00</td>
-                </tr>
-                <tr>
-                    <td>Jaqueta SOUL</td>
-                    <td>PP - GG</td>
-                    <td>R$ 127,00</td>
-                </tr>
-                <tr>
-                    <td>Blusa FINESSE</td>
-                    <td>PP - GG</td>
-                    <td>R$ 320,00</td>
-                </tr>
-                <tr>
-                    <td>ESSENCIAL</td>
-                    <td>PP - GG</td>
-                    <td>R$ 180,00</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-            </tbody>
-        </table>
-    </section>
 
     <footer>
-        <p>Para mais inspirações de moda feminina, visite <a href="https://www.pinterest.com/search/pins/?q=moda%20feminina" target="_blank" rel="noopener noreferrer">Pinterest Moda Feminina</a>.</p>
+        <p>&copy; 2025 - Meu Portfólio. Todos os Direitos Reservados</p>
     </footer>
 </body>
 </html>
