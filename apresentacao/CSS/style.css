@@ -1,0 +1,98 @@
+/* Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
+
+/* Corpo da página */
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Título principal */
+h1 {
+  font-size: 3rem;
+  color: #1b0b45; /* roxo escuro */
+  text-align: left;
+  font-weight: 800;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+
+/* Imagem da capa (notebook) */
+.capa {
+  width: 450px;
+  max-width: 90%;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Botão “Próximo” */
+button {
+  background-color: #12d9c4; /* verde-água */
+  border: none;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #12d9c4;
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+button:hover {
+  background-color: #0fb9a8;
+  box-shadow: 0 0 20px #0fb9a8;
+  transform: scale(1.05);
+}
+
+/* Colchete decorativo da esquerda */
+body::before {
+  content: "{";
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12rem;
+  color: #7b2cbf; /* roxo neon */
+  font-weight: 600;
+  line-height: 0.8;
+  opacity: 0.8;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .capa {
+    position: static;
+    transform: none;
+    margin-top: 30px;
+  }
+
+  body::before {
+    font-size: 8rem;
+    left: 10px;
+    top: 20%;
+  }
+
+  button {
+    position: static;
+    margin-top: 40px;
+  }
+}
