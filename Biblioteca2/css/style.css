@@ -1,0 +1,247 @@
+h1{
+    font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    right: 10px;
+    padding-top: 25px;
+     margin: 0;
+    font-size: 55px;
+    background-color: #fca6af;
+    color: #562915;
+}
+
+body {
+    font-family: "Voces", sans-serif;
+    background-color: #ffead6;
+    font-weight: 400;
+     margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    background: #7a3e24;
+    color: #70a8db;
+    padding: 1px 0;
+}
+
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+}
+nav a {
+    color: #ff96a1;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav a:hover {
+    color: #db7c85;
+}
+
+.pesquisa {
+    text-align: right;
+    padding: 10px;
+}
+
+.pesquisa input {
+    width: 15%;
+    padding: 10px;
+}
+
+.pesquisa button {
+    padding: 10px 20px;
+    cursor: pointer;
+   
+}
+
+.pesquisa h2 {
+    font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+   text-align: right;
+    color: #562915;  
+    font-size: 28px; 
+    margin-right: 20px; 
+}
+
+.livros h2 {
+font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #562915;  
+    background-color:#fff1e4;
+    border: 2px solid#562915;  
+    border-radius: 12px;
+    padding: 15px 25px;
+    display: block;        /* transforma o h2 em bloco */
+    margin: 20px auto;     /* CENTRALIZA */
+    width: fit-content;    /* faz o bloco ter o tamanho do conteúdo */
+    box-shadow: 5px 5px 0 #ff96a1;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #7a3e24;   /* marrom do header */
+    color: #ffe5db;              /* tom claro para contraste */
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 40px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+
+    border-top: 5px solid #562915;  /* detalhe */
+}
+
+.livros-container {
+    display: flex;
+    justify-content: center;   /* centraliza os livros */
+    gap: 25px;                 /* distância entre os livros */
+    flex-wrap: wrap;           /* quebra linha se precisar */
+    padding: 20px 0;
+}
+
+.livro {
+    text-align: center;   
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;   
+     color: #562915;     
+}
+
+.livro img {
+    width: 170px;               
+    height: auto;               /* mantém a proporção */
+    border-radius: 8px;         /* opcional: deixa mais bonito */
+    box-shadow: 3px 3px 8px #00000030; /* opcional */
+}
+
+.secao h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #562915;  
+    background-color: #fff1e4;
+    border: 2px solid #562915;  
+    border-radius: 12px;
+    padding: 15px 25px;
+    display: block;        
+    margin: 20px auto;    
+    width: fit-content;    
+    box-shadow: 5px 5px 0 #ff96a1;
+}
+
+.pesquisa input {
+    width: 15%;
+    padding: 10px;
+    border: 2px solid #ffa8b0;   
+    background-color: #fff1e4;   
+    color: #562915;              
+    font-size: 16px;
+}
+.pesquisa button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ffa8b0;   
+    color: #562915;             
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.pesquisa button:hover {
+    background-color: #ffb3bd;   
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.botao-categoria {
+    background-color: #d3a98d;   /* fundo rosa */
+    color: #562915;              /* texto marrom */
+    padding: 12px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #562915;   /* borda */
+    box-shadow: 4px 4px 0 #ffb9c2; /* sombreadinho fofo */
+    transition: 0.3s ease;
+}
+
+.botao-categoria:hover {
+    background-color: #ffb3bd;   /* rosa mais claro */
+    box-shadow: 4px 4px 0 #ff96a1;
+    transform: scale(1.05);      /* aumenta levemente */
+}
+
+#sobre p {
+font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #562915;
+text-align: center;
+font-size: 18px;
+}
+
+#contato p{
+font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #562915;
+text-align: center;
+}
+
+.livros-romance {
+    display: flex;              /* coloca os livros em linha */
+    justify-content: center;    /* centraliza horizontalmente */
+    gap: 25px;                  /* distância entre os livros */
+    flex-wrap: wrap;            /* quebra linha se não couber na tela */
+    padding: 20px 0;
+}
+.livro {
+    text-align: center;   
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #562915;     
+}
+.livro img {
+    width: 170px;         /* tamanho da imagem */
+    height: auto;         /* mantém proporção */
+    border-radius: 8px;  
+    box-shadow: 3px 3px 8px #00000030;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Online</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<body>
+
+ <h1> Biblioteca Moranguete 🍫 </h1>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="romance.html">Romance</a></li>
+                    <li><a href="fantasia.html">Fantasia</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="pesquisa">
+        <h2> Pesquisa 🔎</h2> 
+        <input type="text" id="campoPesquisa" placeholder="Digite o nome do livro...">
+        <button onclick="pesquisarLivro()">Pesquisar</button>
+        <p id="resultadoPesquisa"></p>
+    </section>
+     <section class="livros">
+        <h2> ☆*: .｡. Livros Mais Emprestados.｡.:*☆</h2>
+        <div class="livros-container">
+            <div class="livro"><img src="Amor, teoricamente.jpg" alt=""><p>Amor, teoricamente</p></div>
+            <div class="livro"><img src="Delilah Green não está nem aí.jpg" alt=""><p>Delilah Green não está nem aí</p></div>
+            <div class="livro"><img src="A Vida Invisível de Addie LaRue, V_ E. Schwab_" alt=""><p>A vida invisível de addie larue</p></div>
+            <div class="livro"><img src="download.jpg" alt=""><p>Heated rivalry</p></div>
+        </div>
+    </section>
+
+
+    <section class="secao">
+    <h2> ☆*: .｡.Categorias.｡.:*☆</h2>
+    <div class="categorias">
+        <a href="romance.html" class="botao-categoria">Romance</a>
+        <a href="fantasia.html" class="botao-categoria">Fantasia</a>
+    </div>
+</section>
+
+
+    <section id="sobre" class="secao">
+        <h2>☆*: .｡.Sobre a Biblioteca.｡.:*☆</h2>
+        <p>Bem-vindo à Biblioteca Moranguete, seu espaço online para explorar, descobrir e se apaixonar por livros! <br>
+            <br>Aqui você encontra diversas categorias, recomendações especiais e os títulos mais emprestados, tudo pensado para tornar sua leitura mais fácil e prazerosa. <br>Mergulhe no mundo das histórias e aproveite a magia da leitura sem sair de casa.</p>
+    </section>
+
+  
+    <section id="contato" class="secao">
+        <h2>☆*: .｡.Contato.｡.:*☆</h2>
+        <p>Email: contato@biblioteca.com | Telefone: (15) 99999-0000</p>
+    </section>
+
+    <footer>
+        <p> Biblioteca Moranguete - Rua Fictícia, 123 - Sorocaba/SP</p>
+        <p>Telefone: (15) 3333-2222</p>
+        <p>&copy; 2025 - Biblioteca Moranguete. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

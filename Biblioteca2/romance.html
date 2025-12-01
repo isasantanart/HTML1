@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Online</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<body>
+
+
+ <h1> Biblioteca Moranguete 🍫 </h1>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="romance.html">Romance</a></li>
+                    <li><a href="fantasia.html">Fantasia</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="pesquisa">
+        <h2> Pesquisa 🔎</h2> 
+        <input type="text" id="campoPesquisa" placeholder="Digite o nome do livro...">
+        <button onclick="pesquisarLivro()">Pesquisar</button>
+        <p id="resultadoPesquisa"></p>
+    </section>
+
+     <section class="livros">
+        <h2> Livros de romance 💕</h2>
+        <div class="livros-romance">
+            <div class="livro"><img src="Amor, teoricamente.jpg" alt=""><p>Amor, teoricamente</p></div>
+            <div class="livro"><img src="Delilah Green não está nem aí.jpg" alt=""><p>Delilah Green não está nem aí</p></div>
+            <div class="livro"><img src="download (1).jpg" alt=""><p>Amor em roma</p></div>
+            <div class="livro"><img src="download.jpg" alt=""><p>Heated rivalry</p></div>
+            <div class="livro"><img src="download (2).jpg" alt=""><p>Aprendiz do vilão</p></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

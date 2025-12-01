@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Online</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<body>
+
+
+ <h1> Biblioteca Moranguete 🍫 </h1>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="romance.html">Romance</a></li>
+                    <li><a href="fantasia.html">Fantasia</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="pesquisa">
+        <h2> Pesquisa 🔎</h2> 
+        <input type="text" id="campoPesquisa" placeholder="Digite o nome do livro...">
+        <button onclick="pesquisarLivro()">Pesquisar</button>
+        <p id="resultadoPesquisa"></p>
+    </section>
+
+     <section class="livros">
+        <h2> Livros de fantasia 🐲</h2>
+        <div class="livros-romance">
+           <div class="livro"><img src="A Vida Invisível de Addie LaRue, V_ E. Schwab_" alt=""><p>A vida invisível de addie larue</p></div>
+            <div class="livro"><img src="O príncipe cruel capa.jpg" alt=""><p>O príncipe cruel</p></div>
+            <div class="livro"><img src="lido em abril_5 estrelas.jpg" alt=""><p>Promessas cruéis</p></div>
+            <div class="livro"><img src="Divinos Rivais.jpg" alt=""><p>Divinso rivais</p></div>
+            <div class="livro"><img src="Capa do livro a rainha vermelha.jpg" alt=""><p>A rainha vermelha</p></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
