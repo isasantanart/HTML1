@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Contato | Curso Front-End</title>
+</head>
+<body class="antialiased text-gray-800">
+  <header class="bg-white shadow-sm">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <h1 class="text-2xl font-extrabold">Curso Front-End</h1>
+      <nav>
+        <ul class="flex gap-6 text-gray-700">
+          <li><a href="index.html" class="hover:text-indigo-600">Home</a></li>
+          <li><a href="modulos.html" class="hover:text-indigo-600">Conteúdo</a></li>
+          <li><a href="sobre.html" class="hover:text-indigo-600">Sobre</a></li>
+          <li><a href="contato.html" class="text-indigo-600 font-bold">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="max-w-2xl mx-auto px-6 py-12">
+    <h2 class="text-3xl font-bold mb-4">Fale Conosco</h2>
+    <p class="mb-8 text-gray-700">Tem dúvidas, sugestões ou quer saber mais? Preencha o formulário abaixo:</p>
+    <form class="bg-white rounded-xl shadow-md p-6 space-y-4">
+      <div>
+        <label class="block mb-1 font-medium" for="nome">Nome</label>
+        <input class="w-full border rounded px-3 py-2" type="text" id="nome" name="nome" required>
+      </div>
+      <div>
+        <label class="block mb-1 font-medium" for="email">Email</label>
+        <input class="w-full border rounded px-3 py-2" type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label class="block mb-1 font-medium" for="mensagem">Mensagem</label>
+        <textarea class="w-full border rounded px-3 py-2" id="mensagem" name="mensagem" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700 transition-colors">Enviar</button>
+    </form>
+  </main>
+  <footer class="bg-gray-50 border-t py-6 mt-12">
+    <div class="max-w-5xl mx-auto px-6 text-center text-sm text-gray-600">
+      © 2026 Curso Front-End — Página de contato.
+    </div>
+  </footer>
+</body>
+</html>
